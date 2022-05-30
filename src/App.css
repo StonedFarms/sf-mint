@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  background-color: #344E41;
+}
+
+.topHeader{
+  padding:0.5px;
+  text-transform: uppercase;
+  background-color: #344E41;
+  text-align: center;
+  font-size: 0.6rem; /* 14px */
+  line-height: 0.5rem; /* 20px */
+  color: rgb(229 231 235);
+  letter-spacing: -0.05em;
+  font-weight: 600;
+}
+
+.bottomHeader {
+  padding:5px;
+  background-color: #b41515;
+  text-align: center;
+  font-size: 0.65rem; /* 14px */
+  line-height: 1.2rem; /* 20px */
+  color: rgb(229 231 235);
+  font-weight: 600;
+
+}
+
+.headerGreenText{
+  color:#85958d;
+}
+
+.navWrapper {
+  background-color: #f3f4f6;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.topNav {
+  display:flex;
+  justify-content: space-between;
+  max-width: 78rem;
+  margin:auto;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:15px;
+  padding-bottom:10px;
+}
+
+.topLogo {
+  height: 2.2rem;
+  width: 13rem;
+}
+
+.socialLinks{
+  width:100%;
+  height:100%;
+}
+
+.desktopLogos {
+  padding-left:5px;
+  height:40px;
+  width:26px;
+  color:#374151;
+}
+
+.desktopLogos:hover {
+  color:#1f2937;
+}
+
+.mainWrapper {
+  height:100vh;
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  --tw-gradient-from: #344E41;
+  --tw-gradient-to: #1a2721;
+}
+
+.bgImage{
+  position: fixed;
+  opacity:0.02;
+  background-image: url('./BGImage.png');
+  background-size: cover;
+  height:100%;
+  width:100%;
+}
+
+.congestedText {
+  padding:1px;
+  background-color: #da1515;
+  text-align: center;
+  font-size: 0.5rem; /* 14px */
+  line-height: 0.5rem; /* 20px */
+  color: rgb(229 231 235);
+  font-weight: 600;
+}

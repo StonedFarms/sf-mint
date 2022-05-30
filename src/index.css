@@ -1,0 +1,15 @@
+body {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  --tw-gradient-from: #344E41;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, #1a2721);
+  margin: 0;
+  font-family: fot-udmincho-pr6n, serif;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: fot-udmincho-pr6n, serif;
+}
